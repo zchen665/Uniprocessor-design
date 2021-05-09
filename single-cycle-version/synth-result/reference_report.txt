@@ -1,0 +1,36 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'proc' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	instr_fetch/U3/A instr_fetch/U3/Y instr_fetch/instr_mem/U4092/A instr_fetch/instr_mem/U4092/Y instr_fetch/instr_mem/U1921/A instr_fetch/instr_mem/U1921/Y instr_fetch/instr_mem/U1248/A instr_fetch/instr_mem/U1248/Y instr_fetch/instr_mem/U5475/B instr_fetch/instr_mem/U5475/Y instr_decoding/U116/A instr_decoding/U116/Y instr_decoding/U214/A instr_decoding/U214/Y instr_decoding/U142/A instr_decoding/U142/Y instr_decoding/U232/A instr_decoding/U232/Y instr_decoding/U168/A instr_decoding/U168/Y 
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'instr_fetch/instr_mem/U1921'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : reference
+Design : proc
+Version: Q-2019.12-SP3
+Date   : Sat Mar 20 14:40:46 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+EX                             3888.150432       1   3888.150432  h
+ID                             3705.592738       1   3705.592738  h, n
+IF                            17390.380472       1  17390.380472  h, n
+INVX1              gscl45nm       1.407900       2      2.815800  
+MA                            15512.241928       1  15512.241928  h, n
+WB                              252.483396       1    252.483396  h
+-----------------------------------------------------------------------------
+Total 6 references                                  40751.664765
+1
