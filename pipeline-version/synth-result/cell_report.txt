@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : cell
+Design : proc
+Version: Q-2019.12-SP3
+Date   : Sat Apr 10 16:43:47 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        BUFX4           gscl45nm        2.815800  
+U2                        INVX1           gscl45nm        1.407900  
+U3                        INVX1           gscl45nm        1.407900  
+execution                 EX                              4812.671400
+                                                                    h, n
+instr_decoding            ID                              4218.068317
+                                                                    h, n
+instr_fetch               IF                              15019.946218
+                                                                    h, n
+mem_access                MA                              14368.557846
+                                                                    h, n
+write_back                WB                              938.599977
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 8 cells                                             39363.475357
+1

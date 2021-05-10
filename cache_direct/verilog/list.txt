@@ -1,0 +1,7 @@
+final_memory.syn.v
+memc.syn.v
+memv.syn.v
+cache.v 
+dff.v
+four_bank_mem.v
+mem_system.v

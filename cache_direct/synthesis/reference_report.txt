@@ -1,0 +1,86 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'mem_system' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : reference
+Design : mem_system
+Version: Q-2019.12-SP3
+Date   : Sun Apr 25 16:03:03 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X1             gscl45nm       2.346500      28     65.701998  
+AND2X2             gscl45nm       2.815800      26     73.210799  
+AOI21X1            gscl45nm       2.815800       2      5.631600  
+AOI22X1            gscl45nm       3.285100      25     82.127500  
+BUFX2              gscl45nm       2.346500      17     39.890499  
+BUFX4              gscl45nm       2.815800       1      2.815800  
+INVX1              gscl45nm       1.407900     194    273.132595  
+INVX2              gscl45nm       1.877200       5      9.386000  
+INVX4              gscl45nm       3.285100       3      9.855300  
+INVX8              gscl45nm       3.285100       3      9.855300  
+LATCH              gscl45nm       5.162300      45    232.303505  n
+MUX2X1             gscl45nm       3.754400      33    123.895200  
+NAND2X1            gscl45nm       1.877200      30     56.316000  
+NAND3X1            gscl45nm       2.346500      27     63.355498  
+NOR2X1             gscl45nm       2.346500      19     44.583498  
+NOR3X1             gscl45nm       2.815800       7     19.710600  
+OAI21X1            gscl45nm       2.815800      10     28.158000  
+OR2X1              gscl45nm       2.346500       6     14.079000  
+OR2X2              gscl45nm       2.815800       5     14.079000  
+cache_cache_id0               48278.767385       1  48278.767385  h, n
+dff_216                          11.732500       1     11.732500  h, n
+dff_217                          11.732500       1     11.732500  h, n
+dff_218                          11.732500       1     11.732500  h, n
+dff_219                          11.732500       1     11.732500  h, n
+dff_220                          11.732500       1     11.732500  h, n
+dff_221                          11.732500       1     11.732500  h, n
+dff_222                          11.732500       1     11.732500  h, n
+dff_223                          11.732500       1     11.732500  h, n
+dff_224                          11.732500       1     11.732500  h, n
+dff_225                          11.732500       1     11.732500  h, n
+dff_226                          11.732500       1     11.732500  h, n
+dff_227                          11.732500       1     11.732500  h, n
+dff_228                          11.732500       1     11.732500  h, n
+dff_229                          11.732500       1     11.732500  h, n
+dff_230                          11.732500       1     11.732500  h, n
+dff_231                          11.732500       1     11.732500  h, n
+dff_232                          11.732500       1     11.732500  h, n
+dff_233                          11.732500       1     11.732500  h, n
+dff_234                          11.732500       1     11.732500  h, n
+dff_235                          11.732500       1     11.732500  h, n
+dff_236                          11.732500       1     11.732500  h, n
+dff_237                          11.732500       1     11.732500  h, n
+dff_238                          11.732500       1     11.732500  h, n
+dff_239                          11.732500       1     11.732500  h, n
+dff_240                          11.732500       1     11.732500  h, n
+dff_241                          11.732500       1     11.732500  h, n
+dff_242                          11.732500       1     11.732500  h, n
+dff_243                          11.732500       1     11.732500  h, n
+dff_244                          11.732500       1     11.732500  h, n
+dff_245                          11.732500       1     11.732500  h, n
+dff_246                          11.732500       1     11.732500  h, n
+dff_247                          11.732500       1     11.732500  h, n
+dff_248                          11.732500       1     11.732500  h, n
+dff_249                          11.732500       1     11.732500  h, n
+dff_250                          11.732500       1     11.732500  h, n
+dff_251                          11.732500       1     11.732500  h, n
+dff_252                          11.732500       1     11.732500  h, n
+dff_253                          11.732500       1     11.732500  h, n
+dff_254                          11.732500       1     11.732500  h, n
+four_bank_mem                 22520.767988       1  22520.767988  h, n
+-----------------------------------------------------------------------------
+Total 60 references                                 72425.190552
+1
